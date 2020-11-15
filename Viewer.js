@@ -75,8 +75,8 @@ var Viewer = function(options) {
   this.createBGScene(options);
 
   // add the renderer to the page
-  options.div.appendChild(this.renderer.domElement);
-  options.div.addEventListener('dblclick', function(ev){
+  options.div.append(this.renderer.domElement);
+  options.div.on('dblclick', function(ev){
       if(that.lastEvent === ev) return;
       that.client.unselectMarker();
       that.lastEvent = ev;
