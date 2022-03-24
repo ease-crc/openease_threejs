@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/ease-crc/openease_threejs#readme",
   "dependencies": {
-    "ros3d": "git://github.com/RobotWebTools/ros3djs.git#develop"
+    "ros3d": "https://github.com/RobotWebTools/ros3djs.git#develop"
   }
 }
